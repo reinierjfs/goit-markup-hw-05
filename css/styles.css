@@ -114,9 +114,7 @@ li > .item:focus {
   font-style: normal;
 }
 
-.contact:hover {
-  color: var(--ocean);
-}
+.contact:hover,
 .contact:focus {
   color: var(--ocean);
 }
@@ -384,11 +382,7 @@ li > .item:focus {
   color: var(--light-slate);
 }
 
-.customer-link:hover {
-  border-color: var(--ocean);
-  color: var(--ocean);
-}
-
+.customer-link:hover,
 .customer-link:focus {
   border-color: var(--ocean);
   color: var(--ocean);
@@ -538,7 +532,7 @@ li > .item:focus {
   max-width: 264px;
 }
 
-/* homework 4 */
+/* HW4 */
 
 .footer-container {
   display: flex;
