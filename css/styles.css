@@ -482,13 +482,6 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.function-items:hover .function-caption,
-.function-items:focus .function-caption {
-  transform: translateY(0%);
-}
-
-/* HW5 BELOW */
-
 .function-img {
   position: relative;
   overflow: hidden;
@@ -509,10 +502,10 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .function-img .function-caption:hover,
-.function-img .function-caption:focus {
+.function-items:hover .function-caption,
+.function-items:focus .function-caption {
   transform: translateY(0%);
-} */
+}
 
 /* FOOTER SECTION */
 
