@@ -97,15 +97,16 @@ li > .item:focus {
 /* HW5 BELOW */
 
 .item {
-  position: relative;
-  /* color: var(--cornflower); */
-  color: var(--ocean);
+  /* position: relative; */
+  color: var(--cornflower);
+
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* li > .navi {
-  
-} */
+.navi {
+  position: relative;
+  color: var(--ocean);
+}
 
 .navi::after {
   content: "";
