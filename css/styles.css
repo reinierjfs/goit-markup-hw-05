@@ -207,6 +207,9 @@ img {
   border-radius: 4px;
   border: none;
   margin: 0 auto;
+
+  /* HW5 DATA MODAL */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn:hover,
