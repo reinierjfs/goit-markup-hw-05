@@ -96,13 +96,6 @@ img {
 
 /* HW5 BELOW */
 
-.item {
-  /* position: relative; */
-  /* color: var(--cornflower); */
-
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-}
-
 .navi.link {
   position: relative;
   color: var(--ocean);
@@ -117,6 +110,7 @@ img {
   height: 4px;
   background-color: var(--ocean);
   border-radius: 2px;
+  width: 100%;
 }
 
 .contact-item > .link {
@@ -160,7 +154,7 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
-  max-width: 1440px;
+  /* max-width: 1440px; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -540,8 +534,9 @@ img {
 .footer {
   background-color: var(--navy-blue);
   padding: 100px 0;
-  max-width: 1440px;
-  margin: 0 auto;
+  /* BELOW FOOTER MARGIN */
+  /* max-width: 1440px;
+  margin: 0 auto; */
 }
 
 .footer-info {
