@@ -662,6 +662,7 @@ img {
 .modal-window-close:focus {
   background-color: var(--ocean);
   border: none;
+  fill: var(--white);
 }
 
 .modal-window-icon {
